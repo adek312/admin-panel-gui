@@ -111,11 +111,13 @@ img{
     height: 180px;
     border-radius: 8px;
     border-left: #F0B429 solid 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .card-title{
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-left: 30px;
     margin-bottom: 0;
 }
@@ -126,4 +128,12 @@ img{
     margin-right: 25px;
     color: rgba(0, 0, 0, 0.651);
 
+}
+
+.card-icon{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+    
 }
