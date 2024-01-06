@@ -3,10 +3,15 @@ img{
     width: 50px;
 }
 
+body{
+    overflow: auto;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 6fr;
     grid-template-rows: 2;
+    height: 100vh;
 }
 
 .header{
@@ -103,6 +108,7 @@ img{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 7% 1fr 1fr 1fr;
     gap: 20px;
+    margin-bottom: 30px;
 }
 
 .card{
@@ -167,4 +173,32 @@ img{
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 10px;
+}
+
+.annoucements-trending{
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+    margin-bottom: 30px;
+}
+
+.trending{
+    background-color: #FFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.trending-title{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 0;
+}
+
+.trending-description{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 0.8em;
 }
