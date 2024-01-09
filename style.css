@@ -83,8 +83,9 @@ body{
     display: grid;
     padding-left: 10px;
     padding-top: 10px;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
+
 
 .text {
     margin-left: 10px;
@@ -101,8 +102,9 @@ li{
     align-items: center;
 }
 
-.dashboard{
-    font-size: 1.7em;
+#dashboard-text{
+    font-size: 2em;
+    margin-right: 10px;
 }
 
 .icon img{
